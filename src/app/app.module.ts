@@ -3,19 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { Button } from './components/button.component';
+import { EntryDataInput } from './components/entry-data.component';
 
 @NgModule({
-  declarations: [
-    AppComponent, Button
-  ],
-  imports: [
-    BrowserModule
-  ],
+  declarations: [AppComponent, Button, EntryDataInput],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
-
+export class AppModule {}
 
 /*
 Copyright Google LLC. All Rights Reserved.
